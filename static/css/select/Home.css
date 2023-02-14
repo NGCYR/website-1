@@ -1,0 +1,86 @@
+ .u-section-1 {
+  background-image: url("/static/images/morton-xiong-vPBhLik-4Bc-unsplash.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 690px;
+}
+
+.u-section-1 .u-list-1 {
+  width: 445px;
+  margin: 95px auto 60px;
+}
+
+.u-section-1 .u-repeater-1 {
+  min-height: 375px;
+  grid-template-columns: 100%;
+  grid-gap: 86px 86px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 0 auto;
+  padding: 17px 148px 19px 147px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 0 auto;
+  padding: 17px 148px 19px 147px;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 0;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 0 auto;
+  padding: 17px 148px 19px 147px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 347px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 340px;
+  }
+}

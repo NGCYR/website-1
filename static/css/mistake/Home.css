@@ -1,0 +1,80 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(153,153,153,0.4), rgba(153,153,153,0.4)), url("/static/images/WallpaperDog-10743327.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 727px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 4.5rem;
+  margin: 1px auto 0 46px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin: -92px auto 0 -21px;
+  padding: 0;
+}
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: -60px 385px 60px auto;
+}
+
+.u-section-1 .u-icon-1 {
+  font-size: 4em;
+}
+
+.u-section-1 .u-table-1 {
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-table-header-1 {
+  font-weight: 700;
+  background-image: none;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 599px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 459px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 344px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 217px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,71 @@
+ .u-section-1 {
+  background-image: url("/static/images/shapelined-_JBKdviweXI-unsplash.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 758px;
+}
+
+.u-section-1 .u-text-1 {
+  background-image: none;
+  font-size: 9.375rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 902px;
+  margin: 172px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-style: solid;
+  font-weight: 700;
+  align-self: center;
+  margin: 21px auto 60px;
+  padding: 26px 108px 27px 106px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 636px;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    background-position: 0% 50%;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    background-position: 43.51% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 623px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 6rem;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 35.67% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 653px;
+  }
+}
