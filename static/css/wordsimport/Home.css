@@ -1,4 +1,6 @@
  .u-section-1 {
+  width : 100%;
+  height : 1000px;
   background-image: linear-gradient(0deg, rgba(153,153,153,0.4), rgba(153,153,153,0.4)), url("/static/images/WallpaperDog-10743327.jpg");
   background-position: 50% 50%;
 }
