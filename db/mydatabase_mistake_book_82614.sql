@@ -16,31 +16,27 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `auth_user_user_permissions`
+-- Table structure for table `mistake_book_82614`
 --
 
-DROP TABLE IF EXISTS `auth_user_user_permissions`;
+DROP TABLE IF EXISTS `mistake_book_82614`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `auth_user_user_permissions` (
-  `id` bigint NOT NULL AUTO_INCREMENT,
-  `user_id` int NOT NULL,
-  `permission_id` int NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `auth_user_user_permissions_user_id_permission_id_14a6b632_uniq` (`user_id`,`permission_id`),
-  KEY `auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm` (`permission_id`),
-  CONSTRAINT `auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm` FOREIGN KEY (`permission_id`) REFERENCES `auth_permission` (`id`),
-  CONSTRAINT `auth_user_user_permissions_user_id_a95ead1b_fk_auth_user_id` FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`)
+CREATE TABLE `mistake_book_82614` (
+  `id_wrong_words` varchar(45) NOT NULL,
+  `id_chinese` varchar(255) NOT NULL,
+  `user_input` varchar(45) NOT NULL,
+  `local_time` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `auth_user_user_permissions`
+-- Dumping data for table `mistake_book_82614`
 --
 
-LOCK TABLES `auth_user_user_permissions` WRITE;
-/*!40000 ALTER TABLE `auth_user_user_permissions` DISABLE KEYS */;
-/*!40000 ALTER TABLE `auth_user_user_permissions` ENABLE KEYS */;
+LOCK TABLES `mistake_book_82614` WRITE;
+/*!40000 ALTER TABLE `mistake_book_82614` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mistake_book_82614` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
